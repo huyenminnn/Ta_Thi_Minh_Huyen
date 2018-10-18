@@ -1,0 +1,24 @@
+.block{
+	height: 160px;
+	width: 120px;
+	display: inline-block;
+	border: 2px groove;
+	border-style: groove;
+	text-align: center;
+}
+
+b{
+	color: red;
+}
+p{
+	color: #FFC900;
+}
+p:hover{
+	color: green;
+}
+b:hover{
+	color: green;
+}
+.block:hover{
+	border-color: #FFC900;
+}

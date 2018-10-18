@@ -1,0 +1,143 @@
+body{
+	background-image: url(../images/tuyet.jpg);
+	background-repeat: repeat-y;
+	background-position: center;
+	background-size: cover;
+}
+.full{
+	width: 60%;
+	border: 2px;
+	border-style: solid;
+	border-color: #fff;
+	height: 99%;
+	margin: 0 auto;
+	background-color: #fff;
+}
+.img-header{
+	background-image: url(../images/123.jpg);
+	background-size: cover;
+	height: 400px;
+	width: 100%;
+}
+.menu{
+	background-color: #424345;
+}
+.border{
+	background-color: #FA7C03;
+	height: 2px;
+}
+.item-menu{
+	color: #FA7C03;
+	/*border: 3px #424345 ridge;*/
+	padding-right: 5px;
+	padding-left: 5px;
+	text-align: center;
+	font-family: Arial;
+	font-size: 14px;
+	line-height: 20px;
+}
+.item-menu:hover{
+	color: #fff;
+}
+.content{
+	height: 1000px;
+}
+.content-l{
+	float: left;
+	width: 20%;
+	/*border: solid;*/
+}
+.content-center{
+	margin-left: 8px;
+	margin-right: 8px;
+	float: left;
+	width: 58%;
+
+}
+.content-r{
+	float: left;
+	width: 20%;
+}
+.clean{
+	clear: both;
+}
+.menu-left{
+	/*border-style: ;*/
+	border: 1px #424345 solid;
+}
+.main-menu{
+	background-image: url(../images/menu_bar.gif);
+	height: 28px;
+	text-align: center;
+	color: #fff;
+	background-size: cover;		
+}
+span{
+	vertical-align: middle;
+	font-size: 15px;
+}
+span:hover{
+	color: blue;
+}
+p{
+	font-family: arial;
+	margin-left: 5px;
+}
+.text-menu{
+	font-family: arial;
+	margin-left: 5px;
+	font-size: 15px;
+}
+.text-menu:hover{
+	color: blue;
+}
+.img-menu{
+	background-size: cover;
+	height: 180px;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.center1{
+	width: 90%;
+	height: 100px;
+	background-color: #f99b79;
+	border-radius: 10px;
+	margin-left: 5%;
+	color: #fff;
+}
+.text:hover{
+	color: #fff;
+}
+.bar-left{
+	background-image: url(../images/main_bar_left.gif);
+	background-size: cover;
+	height: 20px;
+	background-repeat: no-repeat;
+}
+.content-img{
+	background-size: cover;
+	height: 110px;
+	background-position: center;
+	background-repeat: no-repeat;
+	float: left;
+	width: 30%;
+	border-style: groove;
+}
+.content-text{
+	width: 69%;
+	float: left;
+	vertical-align: top;
+}
+.part{
+	height: 200px;
+}
+.chitiet:hover{
+	color: blue;
+}
+.bar-right{
+	background-image: url(../images/main_bar_right.gif);
+	background-size: cover;
+	height: 20px;
+	background-repeat: no-repeat;
+	text-align: right;
+}
