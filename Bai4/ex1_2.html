@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Menu</title>
+	<link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+
+	<style type="text/css">
+	#menu{
+		background: #199a0d;  
+		height: 45px;   
+		padding-left: 0;
+	}
+	.item {
+		list-style: none;	
+		position: relative;
+		float: left;
+		
+	}
+	.item>a{
+		text-decoration: none;  
+		line-height: 45px;    
+		padding-left: 15px;   
+		padding-right: 15px;
+		color: #fff;
+		font-size: 15px;
+	}
+	.item>a:hover{
+		color: black;  
+	}
+	.item:hover .submenu{
+		display: block;
+	}
+	
+	.submenu{
+		list-style: none;
+		margin-left: 10px;
+		padding-left: 0px;
+		position: absolute ;
+		display: none;
+		background-color: #28b61b;
+	}
+	.submenu1{
+		position: absolute;
+		list-style: none;
+		left: 210px;
+		padding-left: 0px;
+		display: none;
+		background-color: #1ea911;
+		padding-left: 15px;
+	}
+	.item1:hover .submenu1{
+		display: block;
+	}
+	ul>.item1:hover{
+		background-color: #1ea911;
+		color: black;		
+	}
+	ul>.item1{
+		width: 200px;
+		color: #fff;
+		text-indent: 5px;
+		padding: 5px;
+	}
+	.i24h{
+		height: 45px;
+		width: 100px;
+		background-image: url(images/24h.jpg);
+		background-size: cover;
+	}
+	.bien{
+		list-style: none;	
+		position: relative;
+		float: left;
+		color: #fff;
+		padding-top: 13px;
+	}
+	.clean{
+		clear: both;
+	}
+</style>
+</head>
+<body>
+	<nav>
+		<ul id="menu">
+			<li class="item">
+				<div class="i24h"></div>
+				<div>
+					<ul class="submenu" >
+						<li class="item1"><i class="fas fa-caret-right" style="padding-right: 5px;"></i>Trang chủ 24h</li>
+						<li class="item1" style="position: relative;"><i class="fas fa-caret-right" style="padding-right: 5px;"></i>Tin tức trong ngày
+							<div style="float: left;">
+								<ul class="submenu1" >
+									<li class="item1">Tin Hà Nội</li>
+									<li class="item1">Tin TP. Hồ Chí Minh</li>
+									<li class="item1">Tin Đà Nẵng</li>
+									<li class="item1">Tai nạn giao thông</li>
+									<li class="item1">Tin Cần Thơ</li>
+									<li class="item1">Tin thời tiết</li>
+									<li class="item1">Dự báo thời tiết</li>
+								</ul>
+							</div>
+						</li>
+						<li class="item1"><i class="fas fa-caret-right" style="padding-right: 5px;"></i>Bóng đá</li>
+						<li class="item1"><i class="fas fa-caret-right" style="padding-right: 5px;"></i>Thế giới</li>
+						<li class="item1"><i class="fas fa-caret-right" style="padding-right: 5px;"></i>Thời trang</li>
+						<li class="item1"><i class="fas fa-caret-right" style="padding-right: 5px;"></i>An ninh xã hội</li>
+						<li class="item1"><i class="fas fa-caret-right" style="padding-right: 5px;"></i>Thời trang Hi-tech</li>
+						<li class="item1"><i class="fas fa-caret-right" style="padding-right: 5px;"></i>Tài chính - Bất động sản</li>
+						<li class="item1"><i class="fas fa-caret-right" style="padding-right: 5px;"></i>Ẩm thực</li>
+						<li class="item1"><i class="fas fa-caret-right" style="padding-right: 5px;"></i>Làm đẹp</li>
+						<li class="item1"><i class="fas fa-caret-right" style="padding-right: 5px;"></i>Đời sống showbiz</li>
+						<li class="item1"><i class="fas fa-caret-right" style="padding-right: 5px;"></i>Giải trí</li>
+						<li class="item1"><i class="fas fa-caret-right" style="padding-right: 5px;"></i>Bạn trẻ - Cuộc sống</li>
+						<li class="item1"><i class="fas fa-caret-right" style="padding-right: 5px;"></i>Giáo dục - du học</li>
+						<li class="item1"><i class="fas fa-caret-right" style="padding-right: 5px;"></i>Thể thao</li>
+						<li class="item1"><i class="fas fa-caret-right" style="padding-right: 5px;"></i>Phi thường - kì quặc</li>
+						<li class="item1"><i class="fas fa-caret-right" style="padding-right: 5px;"></i>Công nghệ thông tin</li>
+						<li class="item1"><i class="fas fa-caret-right" style="padding-right: 5px;"></i>Ô tô</li>
+						<li class="item1"><i class="fas fa-caret-right" style="padding-right: 5px;"></i>Xe máy - Xe đạp</li>
+						<li class="item1"><i class="fas fa-caret-right" style="padding-right: 5px;"></i>Thi trường - Tiêu dùng</li>
+						<li class="item1"><i class="fas fa-caret-right" style="padding-right: 5px;"></i>Du lịch</li>
+						<li class="item1"><i class="fas fa-caret-right" style="padding-right: 5px;"></i>Sức khoẻ - Đòi sống</li>
+						<li class="item1"><i class="fas fa-caret-right" style="padding-right: 5px;"></i>Video tổng hợp</li>
+
+					</ul>
+				</div>
+			</li>
+			<li class="item" style="border-left: groove; border-right: groove;"><a href="#"><i class="fas fa-bars"></i>&nbsp;&nbsp;&nbsp;Xem danh mục</a></li>
+
+			<li class="item"><a href="#">Tin tức quốc tế</a></li>
+			<li class="bien">|</li>
+			<li class="item">
+				<a href="#">Hi-tech</a>
+				
+			</li>
+			<li class="bien">|</li>
+			<li class="item"><a href="#">Showbiz</a></li>
+			<li class="bien">|</li>
+			<li class="item"><a href="#">Giải trí</a></li>
+			<li class="bien">|</li>
+			<li class="item"><a href="#">Sống trẻ</a></li>
+			<li class="bien">|</li>
+			<li class="item"><a href="#">Thể thao</a></li>
+			<li class="bien">|</li>
+			<li class="item"><a href="#">Sức khoẻ</a></li>
+			<li class="bien">|</li>
+			<li class="item"><a href="#">Video</a></li>
+			<li class="bien">|</li>
+			<li class="item"><a href="#">Phái đẹp</a></li>
+			<li class="bien">|</li>
+			<li class="item"><a href="#">Game</a></li>
+			
+			<li class="item" style="float: right;"><a href="#"><i class="fas fa-search"></i></a></li>
+		</ul>
+	</nav>
+</body>
+</html>
