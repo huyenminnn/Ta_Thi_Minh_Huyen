@@ -1,1 +1,119 @@
-ex2.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+		body{
+			 background-image: url(images/bg.jpg);
+			 height: 1000px;
+			 /*background-position: center;*/
+			 background-size: cover;
+			width: 100%;
+		}
+		.zent{
+			font-family: Courier New;
+			font-size: 30px;
+			font-weight: bold;
+			padding-left: 20px;
+			float: left;
+			width: 30%;
+			padding-top: 10px;
+		}
+		.header{
+			height: 50px;
+			
+						
+		}
+		.button{
+			float: left;
+			text-align: center;
+			height: 50px;		
+			
+		}
+		.bt{
+			list-style: none;
+			float: left;
+			text-align: center;
+			margin-left: 30px;	
+			line-height: 20px;	
+		}
+		.menu{
+			width: 10%;
+			float: left;
+		}
+		.list-menu{
+			list-style: none;
+			padding-top: 10px;
+		}	
+		.menu-img{
+			float: left;
+		}
+		.img{
+			background-color: #fff;
+			border-style: groove;
+			border-color:  #bfc7bf;
+			border-radius: 5px;
+		}
+		.menu-img{
+			margin-top: 50px;
+		}
+		.text{
+			opacity: 0.5px;
+			position: absolute;
+			bottom: 0;
+		}
+		.img{
+			position: relative;
+		}
+
+	</style>
+</head>
+<body>
+	<div class="header">
+		<div class="zent">Zent Group</div>
+		<div class="button">
+			<ul>
+				<li class="bt">About</li>
+				<li class="bt">Sign Up</li>
+				<li class="bt" style="border-style: solid; border-radius: 6px; border-color: #bfc7bf; background-color: #bfc7bf; margin-bottom: 2px;">Sign In</li>
+			</ul>
+		</div>
+	</div>
+	<div class="content">
+		<div class="menu">
+			<ul class="list">
+				<li class="list-menu">Home</li>
+				<li class="list-menu">Tab Gallery</li>
+				<li class="list-menu">Create Tab</li>
+				<li class="list-menu">Favorites</li>
+				<li class="list-menu">Tech News</li>
+				<li class="list-menu">Travel</li>
+				<li class="list-menu">Photography</li>
+				<li class="list-menu">Finance</li>
+				<li class="list-menu">Movies</li>
+				<li class="list-menu">Cooking</li>
+				<li class="list-menu">Fashion</li>
+			</ul>
+		</div>
+		<div class="menu-img">
+			<div class="item">
+				<div class="img">
+					<p style="background-color: #fff; font-weight: bold;">Tech News</p>
+					<div style="height: 150px; width: 170px; background-image: url(images/ip.jpg); background-size: cover; background-position: center;"></div>	
+				<div class="text">
+					Zent Phone by ZentGroup
+				</div>
+				
+				</div>
+			</div>
+			<div class="item"></div>
+			<div class="item"></div>
+			<div class="item"></div>
+			<div class="item"></div>
+			<div class="item"></div>
+			<div class="item"></div>
+		</div>
+	</div>
+</body>
+</html>
