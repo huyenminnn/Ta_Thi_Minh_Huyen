@@ -1,0 +1,11 @@
+input{
+	margin: 10px;
+}
+button{
+	border-radius: 5px;
+	margin: 10px;
+}
+div{
+	color: red;
+	font-size: 20px;
+}
