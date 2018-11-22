@@ -4,11 +4,12 @@
 }
 ul{
 	text-align: right;
-	margin-left: 60%;
+	padding-left: 60%;
 	width: 100%;
 }
 .nav-item{
 	margin: auto 3%;
+	color: #fff !important
 }
 h1{
 	padding-left: 5%;
