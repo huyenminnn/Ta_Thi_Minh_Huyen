@@ -1,0 +1,72 @@
+.content{
+	padding: 50px 10%;
+	text-align: center;
+}
+h2{
+	margin-bottom: 30px;
+}
+button{
+	color: black;
+	border: 1px solid #cdc6c6;
+	margin-left: 2%;
+}
+.but{
+	margin-bottom: 50px;
+}
+.filtr-container>div{
+	margin-bottom: 15px; 
+}
+img {
+  max-width: 100%;
+}
+.filtr-item {
+    padding: 1rem;
+}
+.push-down {
+  margin-bottom: 50px;
+}
+.filtr-container{
+  transition: height 500ms ease-out;
+}
+.simplefilter{
+  padding-left: 0;
+}
+.active{
+	background: #f8233f;
+	color: #fff;
+}
+.but{
+	margin-top: 40px;
+}
+.but>button:hover{
+	background: #f8233f;
+	color: #fff;
+}
+.text{
+	color: #f8233f;
+	display: none;
+	position: absolute;
+	top: 0px;
+	width: 80%;
+	text-align: center;
+	font-size: 40px;
+	margin: 35px 0px;
+}
+.filtr-item{
+	position: relative;
+}
+.text>p{
+	font-size: 15px;
+
+}
+@media (max-width: 680px){
+	button{
+		margin-top: 20px; 
+	}
+}
+@media (max-width: 900px){
+	.text{
+		font-size: 30px;
+		margin: 20px 0px;
+	}
+}

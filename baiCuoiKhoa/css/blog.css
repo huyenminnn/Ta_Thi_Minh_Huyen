@@ -1,0 +1,151 @@
+.content{
+	padding: 50px 0px;	
+}
+.content>h3, .content>p{
+	padding-bottom: 30px;
+	text-align: center;
+}
+#blog{
+	padding-left: 10%;
+	padding-right: 10%;
+}
+.main{
+	padding: 50px 10%;
+}
+.user{
+	padding: 0px;
+}
+.date{
+	background: #f8233f;
+	color: #fff;
+	text-align: center;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+.user>hr{
+	background: black;
+	height: 3px;
+	margin: 0px;
+}
+.new-item{
+	margin-bottom: 60px;
+}
+.user>p{
+	text-align: left;
+	margin-bottom: 0px;
+	padding: 5px 8%;
+	font-size: 13px;
+	background:#e3e6f2;
+}
+a{
+	color: #818589;
+}
+.new{
+	padding-left: 3%;
+}
+h5{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.new>p{
+	font-size: 14px;
+}
+.new>button{
+	background:  #f8233f;
+	border: none;
+	color: #fff;
+}
+.left>button{
+	background: #fff;
+	color: blue;
+	border: 1px solid blue;
+}
+.right>div{
+	margin-top: 50px;
+}
+.comment>div>a{
+	padding-left: 3%;
+}
+h4{
+	margin: 30px 0px;
+}
+.progress{
+	height: 30px;
+	background: #edf2f6;
+	margin: 10px 0px;
+}
+.progress-bar{
+	background: #e3e6f2;
+	color: #818589;
+}
+.arch>hr{
+	background: #dfdfdf;
+	border: none;
+	height: 1px !important;
+}
+.no{
+	padding: 0px;
+}
+.justify-content-between{
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+.tag>button{
+	background: #c3bdbd;
+	margin: 5px 1%;
+	border: none;
+}
+.gallery>div>img{
+	padding: 7px 1%;
+}
+span{
+	color: #818589;
+}
+.tag>button:hover{
+	background: #f8233f;
+	color: #fff;
+}
+.progress-bar:hover{
+	background: #f8233f;
+}
+.left>button:hover{
+	border-color: #f8233f;
+	color: #f8233f; 
+}
+.new>button:hover{
+	color: black;
+}
+@media (max-width: 1080px){
+	.comment>div>img{
+		height: 60px;
+		width: 60px;
+	}
+	.comment>div>a{
+		padding-left: 1%;
+		font-size: 12px;
+
+	}
+	.main{
+		padding: 50px 5%;
+	}
+}
+@media (max-width: 768px){
+	.right{
+		margin-top: 50px;
+	}
+}
+@media (max-width: 576px){
+	.gallery>div>img{
+		padding: 7px 1%;
+		width: auto;
+		height: auto;
+	}
+	.new{
+		padding: 0px;
+	}
+	.arch>div>a, .arch>div>span{
+		width: auto;
+	}
+}

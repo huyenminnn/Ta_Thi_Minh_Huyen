@@ -1,0 +1,116 @@
+.our-services{
+	background: #fee5eb;
+	padding: 50px 10%;
+	text-align: center;
+}
+h3{
+	padding-bottom: 20px;
+}
+.our-services>p{
+	padding-bottom: 30px;
+}
+.item-3{
+	margin-bottom: 50px;
+}
+.item-3>div>.rounded-circle{
+	height: 150px;
+	width: 150px;
+	margin:auto;
+	margin-bottom: 30px;
+	color: #ff0052;
+	font-size: 50px;
+	line-height: 150px;
+}
+.blue{
+	background: #0becec;
+}
+.green{
+	background: #2ed919;
+}
+.yellow{
+	background: #eef20b;
+}
+.item-3{
+	text-align: center;
+}
+p{
+	font-size: 12px;
+}
+#team{
+	padding: 10px 20% !important;
+}
+.item-4>div>img{
+	margin-bottom: 30px;
+	height: 150px;
+	width: 150px;
+}
+.our-skills{
+	text-align: center;
+	padding: 50px 10%;
+}
+.progress{
+	height: 40px;
+	border-radius: 10px;
+}
+h5{
+	margin: 13px 0px 5px 0px;
+}
+.progress-value{
+	font-size: 20px;
+}
+.text{
+	text-align: center;
+}
+.im{
+	height: auto;
+	width: 100%;
+}
+.content{
+	margin-top: 20px;
+}
+.content2{
+	padding-top: 30px;
+}
+.content2>div>div{
+		padding: 0px;
+	}
+@media (max-width: 1080px){
+	.item-3>div>.rounded-circle{
+		height: 100px;
+		width: 100px;
+		color: #ff0052;
+		font-size: 40px;
+		line-height: 100px;
+	}
+	#team{
+		padding: 10px 10% !important;
+	}
+	.our-skills{
+	text-align: center;
+	padding: 50px 5%;
+}
+}
+@media (max-width: 768px){
+	.item-3>div>h4{
+		height: 50px;
+	}
+	#team{
+		padding: 10px 8% !important;
+	}
+	.content2>div{
+		margin-top: 30px;
+	}
+
+}
+@media (max-width: 576px){
+	#team{
+		padding: 10px 0% !important;
+	}
+	.our-services{
+		padding: 50px 5%;
+	}
+	.item-4>div>img{
+		margin-top: 30px;
+	}
+	
+}
